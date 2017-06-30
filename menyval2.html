@@ -1,0 +1,61 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Brors favoritspel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Homepage</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Firstpersonshootergames</a></li>
+                    <li><a href="menyval2.html">Adventuregames</a></li>
+                    <li><a href="menyval3.html">Horrorgames</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    Uncharted är en spelserie ur tredjepersonsskjutargenren för Playstation 3 och Playstation 4, skapad och utvecklad av Naughty Dog och utgiven av Sony Computer Entertainment. Spelserien handlar om skattjägaren Nathan Drakes äventyr. Serien inleddes först med Uncharted: Drake's Fortune som kom ut 2007, uppföljarna Uncharted 2: Among Thieves och Uncharted 3: Drake's Deception släpptes under 2009 och 2011. Bend Studio har även utvecklat ett spel exklusivt till Playstation Vita, vid namn Uncharted: Golden Abyss. Utvecklarna har även skapat en tecknad serie, Uncharted: Eye of Indra, som finns att köpa i Playstation Store. En långfilm är också planerad. En fjärde uppföljare med titeln Uncharted 4: A Thief's End släpptes den tionde maj 2016 på Playstation 4.
+    <h1>Mitt favorit adventur (äventyr) spel</h1>
+
+    <img src="bilder/unch.jpg">
+    <img src="bilder/unch2.jpg">
+
+
+    
+    <main>
+</body>
+</html>

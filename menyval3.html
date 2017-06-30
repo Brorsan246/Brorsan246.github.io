@@ -1,0 +1,61 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Brors favoritspel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Homepage</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Firstpersonshootergames</a></li>
+                    <li><a href="menyval2.html">Adventuregames</a></li>
+                    <li><a href="menyval3.html">Horrorgames</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Den läskigaste horrorgamet (skrämspelet) jag vet om</h1>
+    <img src="bilder/fnaf.jpg">
+    <img src="bilder/fnaf2.jpg">
+    <p>
+    Five Nights at Freddy's (often abbreviated to FNaF) is a media franchise based around an indie video game series created, designed, developed, and published by Scott Cawthon for Microsoft Windows, iOS, and Android.
+The series is centered on the story of a fictional restaurant named Freddy Fazbear's Pizza (a pastiche of restaurants like Chuck E. Cheese's and ShowBiz Pizza Place). The first three games involve the player working as a nighttime security guard, in which they must utilize several tools, most notably checking security cameras, to survive against animatronic characters, which become mobile and homicidal after-hours. The fourth game, which gameplay differentiates to its predecessors, takes place in the house of a child who must defend against nightmarish versions of the animatronics by closing doors and fleeing on foot. The fifth game takes place in a maintenance facility owned by a sister company of Freddy Fazbear's Pizza. In this game, the player character is a technician instead of a night guard, who must do different tasks as told by an AI voice heard in the game.
+The series gained widespread popularity shortly after its release. Two novel adaptations, Five Nights at Freddy's: The Silver Eyes and Five Nights at Freddy's: The Twisted Ones, were released on December 17, 2015 and June 27, 2017, respectively. One more written publication is currently being written: a guidebook based on the series, The Freddy Files. A film adaptation is also in production.
+A horror attraction based on the series featured in the Adventuredome in Halloween of 2016. Additionally, the series appeared in the Guinness Book of Records: Gamer's Edition, breaking the record for the most sequels released in a year.[1]
+</p>
+    </main>
+</body>
+</html>

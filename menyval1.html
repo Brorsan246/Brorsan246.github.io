@@ -1,0 +1,56 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Brors favoritspel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+   <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Homepage</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Firstpersonshootergames</a></li>
+                    <li><a href="menyval2.html">Adventuregames</a></li>
+                    <li><a href="menyval3.html">Horrorgames</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+<h1>Battlefield 1</h1> <p>
+ <img src="bilder/battle1.jpg">
+ <img src="bilder/battle2.png">
+<p> Battlefield 1 är en förstapersonsskjutare utvecklat av Digital Illusions CE och utgivet av Electronic Arts den 21 oktober 2016 till Microsoft Windows, Playstation 4 och Xbox One.[1] Trots sitt namn är det den fjortonde delen i Battlefield-serien, den första delen i serien sedan Battlefield 4 (2013)[2] och det första datorspelet utgivet av Electronic Arts som utspelar sig under första världskriget sedan Wings of Glory från 1994. I spelet kan man spela för Tyska Kejsardömet, Österrike-Ungern, Kungariket Italien, Storbritannien och USA. I DLCn They Shall Not Pass kan man även spela för Franska Armén.[3]</p>
+    </main>
+</body>
+</html>
